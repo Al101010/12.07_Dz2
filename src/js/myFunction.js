@@ -3,11 +3,10 @@ export default function specialAttack(obj, [id, name, description, icon]) {
     const arrResulte = [];
     
     for (let i = 0; i < arr.length; ++i) {
-        // console.log(arr[i]);
+        
         const objectOut = {
             id: obj.special[i].id,
-            name: obj.special[i].name,
-            
+            name: obj.special[i].name,            
             icon: obj.special[i].icon
         };
 
@@ -17,8 +16,8 @@ export default function specialAttack(obj, [id, name, description, icon]) {
             objectOut.description = 'Описание недоступно'
         };
 
-        arrResulte.push(objectOut);
+        arrResulte.push(objectOut)
     }
 
-    return arrResulte;
+    return arrResulte
 };
