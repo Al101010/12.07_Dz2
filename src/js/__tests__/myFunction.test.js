@@ -24,7 +24,7 @@ test('тест specialAttack', () => {
         ]	
     };
 
-    expect(specialAttack(character, [])).toEqual([
+    expect(specialAttack(character)).toEqual([
         {
             id: 8,
             name: 'Двойной выстрел',
