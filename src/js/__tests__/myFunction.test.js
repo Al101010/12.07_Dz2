@@ -37,5 +37,5 @@ test('тест specialAttack', () => {
             icon: 'http://...',
             description: 'Описание недоступно'
         }
-    ]);
+    ])
 })
